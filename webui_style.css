@@ -1,0 +1,293 @@
+* {
+font-family: Arial, Meiryo, Microsoft YaHei, sans-serif;
+font-size: 10pt;
+text-decoration: none;
+}
+a:link {
+text-decoration: none;
+color: DodgerBlue;
+}
+a:visited {
+text-decoration: none;
+color: DodgerBlue;
+}
+a:hover {
+text-decoration: none;
+background: Silver; 
+}
+body {
+margin: 1em;
+background: Snow url(webui_bg.jpg) repeat-y fixed center center;
+}
+h1 {
+font-size: x-large;
+padding: 0.3em;
+background: DeepSkyBlue;
+color: Ivory;
+}
+h2 {
+font-size: 14px;
+padding-left: 2em;
+color: DeepSkyBlue;
+}
+table {
+border-collapse: collapse;
+margin-bottom: 0.8em;
+filter:alpha(opacity=65);
+-moz-opacity:0.65;
+-kHTML-opacity: 0.65;
+opacity: 0.65;
+}
+input[type="text"], input[type="password"], textarea{
+filter:alpha(opacity=65);
+-moz-opacity:0.65;
+-kHTML-opacity: 0.65;
+opacity: 0.65;
+}
+input[type="submit"], input[type="button"], input[type="reset"] {
+border: 1px CornflowerBlue solid;
+margin-right: 5px;
+margin-bottom: 3px;
+}
+tfoot td{
+border: 0px;
+padding: 1em;
+}
+form {
+margin: 1em 0em;
+}
+input[type="text"]{
+font-size: 9pt;
+border: solid 1px CornflowerBlue;
+}
+input[type="password"]{
+font-size: 9pt;
+border: solid 1px Red;
+}
+caption {
+margin: 0.8em;
+font-size: 16px;
+}
+fieldset { 
+border: solid 1px gray;
+padding: 5px;
+}
+legend { font-size: 16px; margin: 0.3em; }
+em { font-style: normal; font-weight: bold; color: Blue; font-family: Meiryo, MS PGothic, sans-serif; }
+#status {
+border: solid 1px black;
+padding: 0.3em;
+font-size: medium;
+background: Wheat;
+text-align: center;
+}
+#message {
+border: solid 1px gray;
+padding: 0.3em;
+font-size: medium;
+background: lightgreen;
+text-align: center;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+#AddTrig,#AddFilter {
+width: 49%;
+line-height: 14px;
+}
+#SearchEx {
+float: right;
+width: 49%;
+line-height: 14px;
+}
+#ADMIN_Form textarea {
+margin: 1em; 
+float: right;
+font-size: 9pt;
+border: solid 1px CornflowerBlue;
+}
+#AddTrig textarea {
+margin: 0.5em; 
+width: 82%;
+font-size: 9pt;
+border: solid 1px CornflowerBlue;
+}
+.FL_Param {
+width: 20%;
+margin-right: 10%;
+}
+#FL_COUNTDOWN { font-size: 16px; color: Orange; }
+#FL_Type {
+width: 15%;
+}
+#FL_MsgBox {
+margin: 1em 0em;
+width: 98%;
+height: 60px;
+font-size: 10pt;
+border: solid 1px CornflowerBlue;
+}
+#DL_LINKS {
+display: none;
+width: 100%;
+height: 100px;
+font-size: 9pt;
+border: solid 1px CornflowerBlue;
+}
+#ULM_Form input[type="submit"] {
+margin: 0px 5px 0px 0px; 
+}
+#ADMIN_Form input[type="submit"] { margin: 0px; }
+#ADMIN_Form input[type="text"] {
+margin-right: 1em; 
+}
+#AddTrig .box,#FM_Form .box {
+width: 32%;
+position: absolute;
+left: 110px;
+}
+#ShareStat,#UIS {
+width: 48%;
+border: solid 2px blue;
+text-align: center;
+}
+#UIS { float: right; }
+#DLM,#TRM,#TAM,#NM,#QV,#LM,#DLL,#FM,#FOM,#ULM {
+width: 100%;
+max-height: 100%;
+border: solid 2px blue;
+text-align: center;
+}
+#LM td {
+text-align: left;
+padding-left: 0.5em;
+}
+#MEMO_Content {
+width: 99%;
+height: 400px;
+max-height: 50%;
+border: 2px solid gray;
+padding: 5px;
+overflow: scroll;
+}
+#SmileBox {
+text-align: center;
+border: solid 0px black;
+}
+#SmileBox a {
+color: white;
+border: gray 1px solid;
+vertical-align: center;
+}
+.LM_Time {
+width: 135px;
+text-align: center;
+}
+td {
+border: solid 1px blue;
+}
+th {
+background: gray;
+color: Snow;
+border: solid 1px blue;
+}
+#DLM input{
+font-size: 10px;
+margin: 0px;
+padding: 2px;
+}
+#VER {
+text-align: right;
+font-weight: bold;
+font-size: 11px;
+}
+#TurboStatus {
+float: right;
+margin-right: 1em;
+}
+.cls {
+float: right;
+font-size: 9pt;
+}
+.ClusterBox {
+width: 15%;
+margin: 1em;
+font-size: 10pt;
+border: solid 1px gray;
+}
+.FlagRemark {
+float: right;
+width: 40%;
+border: solid 2px Blue;
+text-align: left;
+}
+.DLFilename { padding-left: 1em; font-family: Meiryo, MS PGothic, sans-serif; }
+.DLFileSize { text-align: right; padding-right: 0.5em }
+.ToTop { float: right; display: block; }
+.IDSign {font-weight: bolder; color: LightSeaGreen;}
+.IDEncrypte {font-weight: bolder; color: SpringGreen;}
+.IDEncrypteOnly {font-weight: bolder; color: RoyalBlue;}
+.Bad { font-weight: bold; color: Red; }
+.Idle { color: Gray; }
+.Busy { font-weight: bold; color: Blue; }
+.Finish { font-weight: bold; color: Green; }
+.Wraning { color: Red; font-weight: bold; margin-left: 1em; }
+.NCheck { font-weight: bold; color: Orange; }
+.NTest { font-weight: bold; color: Yellow; }
+.NSearch { font-weight: bold; color: Aqua; }
+.NShare { font-weight: bold; color: Blue; }
+.NDiffuse { font-weight: bold; color: Purple; }
+.NodeStateCell { background: Gray; }
+.QCompFile { font-weight: bold; color: Green; }
+.QBadFile { font-weight: bolder; color: Red; }
+.QDownFile { font-weight: bolder; color: Aqua; } 
+.DLFilename { text-align: left; }
+.PrimaryCache { font-weight: bold; color: Green; }
+.FilenameHash { text-align: left; padding-left: 0.5em }
+.HashString { font-family: Consolas, monospace }
+.FL_MBody {
+padding-left: 5px;
+}
+.FL_ID:before {
+content: "#";
+}
+.FL_ID:after {
+content: "";
+}
+.FL_MType:before {
+content: " (";
+color: Blue;
+}
+.FL_MType:after {
+content: ") ";
+color: Blue;
+}
+.FL_Date:before {
+content: " ";
+}
+.FL_Date:after {
+content: " ";
+}
+.FL_Author:after {
+content: " wrote:";
+font-weight: normal;
+color: black;
+}
+.FL_MType {
+font-weight: bold;
+color: #FF6633;
+}
+.FL_Author {
+font-size: 14px;
+font-weight: bold;
+color: DodgerBlue;
+}
+.FL_MSubject:before {
+content: " ";
+}
+.FL_MSubject {
+color: Green;
+font-weight: bold;
+font-size: 15px;
+}
+.FL_Msg { margin-bottom: 4px; }
+#DLL_FS{ font-style: normal; font-weight: bold; color: Blue; }
