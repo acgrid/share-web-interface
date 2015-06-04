@@ -1,0 +1,1 @@
+Share Web Interface is a Share plugin that hosts a HTTP Server where several operations can be commited to Share program.
